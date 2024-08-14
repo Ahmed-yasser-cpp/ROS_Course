@@ -1,0 +1,6 @@
+<launch>
+
+    <node name="turtle_pos" pkg="topic_subscriber_pkg" type="pose_node"/>
+
+
+ </launch>
