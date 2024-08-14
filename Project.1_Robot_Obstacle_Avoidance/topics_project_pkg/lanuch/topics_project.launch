@@ -1,0 +1,7 @@
+<launch>
+
+<!-- <arg name="burger" default="$(env TURTLEBOT3_MODEL)" doc="model type [burger, waffle, waffle_pi]"/> -->
+<include file="$(find turtlebot3_gazebo)/launch/turtlebot3_empty_world.launch" />
+<node name="topics_project" pkg="topics_project_pkg" type="topics_project_node"/>
+
+ </launch>
